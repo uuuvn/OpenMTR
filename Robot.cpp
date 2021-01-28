@@ -45,3 +45,8 @@ void Robot::setPowerAndDirection(int power,int dir){
     this->left.setPower(constrain(power + dir,-100,100));
     this->right.setPower(constrain(power - dir,-100,100));
 }
+void Robot::walk(int power,int dir,unsigned int ms){
+    this->setPowerAndDirection(power,dir);
+    delay(ms);
+    this->setPower(0,0);
+}
