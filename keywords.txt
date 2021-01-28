@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For OpenMTR
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MotorConnectInfo	KEYWORD1
+Robot	KEYWORD1
+SingleMotor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+generic	KEYWORD2
+generic_dualside	KEYWORD2
+driver_L298P	KEYWORD2
+setPower	KEYWORD2
+walk	KEYWORD2
+isReady	KEYWORD2
+getConnectInfo	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MOTORTYPE_GENERIC	LITERAL1
+MOTORTYPE_GENERIC_DUALSIDE	LITERAL1
+MOTORTYPE_L298P	LITERAL1
+OPENMTR_DAC_INVERT	LITERAL1
+OPENMTR_MIN_DAC	LITERAL1
+OPENMTR_MAX_DAC	LITERAL1
