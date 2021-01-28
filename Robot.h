@@ -40,6 +40,7 @@ public:
     Robot(MotorConnectInfo left,MotorConnectInfo right);
     void begin(MotorConnectInfo left,MotorConnectInfo right);
     void setPower(int left,int right);
+    void setPowerAndDirection(int power,int dir); 
 };
 
 #endif

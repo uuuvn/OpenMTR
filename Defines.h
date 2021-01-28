@@ -37,7 +37,7 @@
 
 // DAC convert consts
 
-#define OPENMTR_DAC_INVERT//DON'T USE!!!!!
+//#define OPENMTR_DAC_INVERT//DON'T USE!!!!!
 
 #ifndef OPENMTR_DAC_INVERT
 #ifndef OPENMTR_MAX_DAC

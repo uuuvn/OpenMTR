@@ -41,3 +41,7 @@ void Robot::setPower(int left,int right){
     this->left.setPower(left);
     this->right.setPower(right);
 }
+void Robot::setPowerAndDirection(int power,int dir){
+    this->left.setPower(constrain(power + dir,-100,100));
+    this->right.setPower(constrain(power - dir,-100,100));
+}
